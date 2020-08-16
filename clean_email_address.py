@@ -1,7 +1,7 @@
 import pandas as pd 
 
 # Read csv data
-data = pd.read_csv("/Users/hiroito/Documents/Python/Clean_emails/OWEB_Small_Grant_Teams.csv")
+data = pd.read_csv("your csv path")
 # Drop unsued columns
 data.drop(columns=['Team','Organization','Phone','Location'], inplace=True)
 # Drop empty email addresses
